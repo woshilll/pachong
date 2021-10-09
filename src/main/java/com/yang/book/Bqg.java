@@ -1,4 +1,4 @@
-package com.yang.小说;
+package com.yang.book;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,7 +11,7 @@ import java.net.URL;
 /**
  * desc
  *
- * @author stmj
+ * @author woshilll
  * @version 1.0.0
  * @date 2021/10/8 12:25
  */

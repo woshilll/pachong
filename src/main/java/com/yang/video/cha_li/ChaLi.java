@@ -1,19 +1,16 @@
-package com.yang;
+package com.yang.video.cha_li;
 
-import cn.hutool.core.io.StreamProgress;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
+import com.yang.utils.Decrypt;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
 import java.util.Arrays;
@@ -24,7 +21,7 @@ import java.util.regex.Pattern;
 /**
  * desc
  *
- * @author stmj
+ * @author woshilll
  * @version 1.0.0
  * @date 2021/9/24 10:17
  */

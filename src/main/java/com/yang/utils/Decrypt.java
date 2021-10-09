@@ -1,13 +1,9 @@
-package com.yang;
+package com.yang.utils;
 
 import javax.crypto.Cipher;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.nio.charset.StandardCharsets;
 import java.security.NoSuchAlgorithmException;
 import java.security.Security;
@@ -15,7 +11,7 @@ import java.security.Security;
 /**
  * desc
  *
- * @author stmj
+ * @author woshilll
  * @version 1.0.0
  * @date 2021/9/24 12:28
  */
